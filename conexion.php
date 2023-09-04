@@ -2,12 +2,10 @@
 $servername = "localhost";
 $username = "root"; 
 $password = ""; 
-$database = "control_acceso_usuario";
+$database = "control_acceso_usuarios";
 
 
-$conexion = mysqli_connect($servername, $username, $password, $database):  or die  ($conexion->conexion_error) {
-    die("Error de conexión: " . $conexion->conexion_error);
-}
+$conexion = mysqli_connect($servername, $username, $password,$database)  or die ("error en la conexion");
 
 
 
